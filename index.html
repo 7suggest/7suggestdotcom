@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="input.css">
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+    <meta name="description" content="">
+    <link rel="canonical" href="https://www.7suggest.com">
+
+
+    <title>7Suggest - Help to Choose</title>
+</head>
+
+<body class="">
+    <header class="">
+        <nav class="bg-black sm:flex  sm:justify-between  text-gray-200 ">
+            <div class="flex  font-bold  justify-between sm:justify-between ">
+
+                <div class="font-extrabold  m-2 px-2 text-2xl">
+                    <a href="/">
+                        <span class="text-blue-600 border-b-[1px] border-blue-500">7</span><span
+                            class="text-red-500 border-b-[1px] border-red-500">S</span><span
+                            class="text-yellow-400 border-b-[1px] border-yellow-400">u</span><span
+                            class="text-blue-500 border-b-[1px] border-blue-500">g</span><span
+                            class="text-green-500 border-b-[1px] border-green-500">g</span><span
+                            class="text-red-500 border-b-[1px] border-red-500">e</span><span
+                            class="text-yellow-400 border-b-[1px] border-yellow-400">s</span><span
+                            class="text-blue-500 border-b-[1px] border-blue-500">t</span>
+                    </a>
+                </div>
+
+
+                <button
+                    class="menu-btn mx-1 my-2 py-2 sm:hidden hover:bg-white border-black hover:cursor-pointer border hover:rounded-sm"
+                    onclick="menu_btn()">
+                    <!-- <div class="bg-gray-400 px-4 py-[1px] mx-2 my-1"></div>
+                    <div class="bg-gray-400 px-4 py-[1px] mx-2 my-1"></div>
+                    <div class="bg-gray-400 px-4 py-[1px] mx-2 my-1"></div> -->
+                    <div class="bg-gray-400 px-4 py-[1px] mx-2 my-1 transform transition duration-500 ease-in-out rotate-45 translate-y-1"></div>
+                    <div class="bg-gray-400 px-4 py-[1px] mx-2 my-1 transform transition duration-500 ease-in-out hidden"></div>
+                    <div class="bg-gray-400 px-4 py-[1px] mx-2 my-1 transform transition duration-500 ease-in-out -rotate-45 -translate-y-0.5"></div>
+                </button>
+            </div>
+
+
+
+            <div class="sm:mr-8">
+                <ul class="menu-bar text-center font-bold tracking-wider w-[100%] transition-transform sm:flex hidden ">
+
+
+                    <li class="py-4 mx-auto  w-14 sm:mx-4 "><a
+                            class="py-2  hover:text-white sm:px-2 sm:border-white sm:rounded-sm sm:text-black sm:bg-white sm:hover:text-black "
+                            href="/">Home</a></li>
+                    <hr class="bg-gray-400 mx-28 sm:hidden">
+                    <li class="py-4 mx-auto  w-14 sm:mx-4"><a
+                            class="py-2 hover:transition-all hover:duration-500 hover:ease-out hover:text-white sm:px-2 sm:border-black sm:rounded-sm sm:hover:border-white sm:hover:text-black sm:hover:bg-white "
+                            href="about.html">About</a></li>
+                    <hr class="bg-gray-400 mx-28 sm:hidden">
+                    <li class="py-4 mx-auto  w-14 sm:mx-4"><a
+                            class="py-2 hover:transition-all hover:duration-500 hover:ease-out hover:text-white sm:px-2 sm:border-black sm:rounded-sm sm:hover:border-white sm:hover:text-black sm:hover:bg-white "
+                            href="contact.html">Contact</a></li>
+                    <hr class="bg-gray-400 mx-28 sm:hidden">
+                    <li class="py-4 mx-auto  w-14 sm:mx-4"><a
+                            class="py-2 hover:transition-all hover:duration-500 hover:ease-out  hover:text-white sm:px-2 sm:border-black sm:rounded-sm sm:hover:border-white sm:hover:text-black sm:hover:bg-white "
+                            href="privacy.html">Privacy</a></li>
+                    <hr class="bg-gray-400 mx-28 sm:hidden">
+                    <li class="py-4 mx-auto  w-14 sm:mx-4 "><a
+                            class="py-2 hover:transition-all hover:duration-500 hover:ease-out hover:text-white sm:px-2 sm:border-black sm:rounded-sm sm:hover:border-white sm:hover:text-black sm:hover:bg-white "
+                            href="disclamer.html">Disclamer</a></li>
+
+
+
+                    <!-- <li class="my-4"><a class=" hover:underline hover:text-white p-1 m-1 " href="/">Home</a>
+                    </li>
+                    <hr class="bg-gray-400 mx-28 sm:hidden">
+                    <li class="my-4"><a class=" hover:underline hover:text-white p-1 m-1 " href="about.html">About</a>
+                    </li>
+                    <hr class="bg-gray-400 mx-28 sm:hidden">
+                    <li class="my-4"><a class=" hover:underline hover:text-white p-1 m-1 "
+                            href="contact.html">Contact</a></li>
+                    <hr class="bg-gray-400 mx-28 sm:hidden">
+                    <li class="my-4"><a class=" hover:underline hover:text-white p-1 m-1 " href="privay.html">Privay</a>
+                    </li>
+                    <hr class="bg-gray-400 mx-28 sm:hidden">
+                    <li class="my-4"><a class=" hover:underline hover:text-white p-1 m-1 "
+                            href="disclamer.html">Disclamer</a></li> -->
+
+                </ul>
+            </div>
+
+
+
+        </nav>
+    </header>
+
+    <main class="flex flex-col font-sans">
+
+
+        <div class="bg-gray-100 m-4 rounded-sm p-4  sm:ml-20 sm:mr-[33%]">
+            <h1 class="font-extrabold text-3xl text-center mx-28 mb-5">7Suggest</h1>
+            <p class="text-center">
+                We Help You to Choose the Best Product in Your Range
+            </p>
+            <br>
+            <div>
+                <img src="/img/right-product.jpg" alt="">
+            </div>
+
+
+        </div>
+
+
+
+
+    </main>
+
+    <footer class="bg-black text-center  text-gray-200 p-2">
+        <ul class="tracking-wider">
+            <p class="text-white font-bold">Other Links</p>
+            <li class="my-4"><a class=" hover:underline hover:text-white p-1 m-1 " href="about.html">About</a></li>
+            <li class="my-4"><a class=" hover:underline hover:text-white p-1 m-1 " href="contact.html">Contact</a></li>
+            <li class="my-4"><a class=" hover:underline hover:text-white p-1 m-1 " href="privacy.html">Privay</a></li>
+            <li class="my-4"><a class=" hover:underline hover:text-white p-1 m-1 " href="disclamer.html">Disclamer</a>
+            </li>
+
+        </ul>
+
+        <hr class="mt-4 bg-gray-300">
+
+        <div class="font-bold text-xl mt-2">
+            <span class="text-blue-600">7</span>
+            <span class="text-red-500">S</span>
+            <span class="text-yellow-400">u</span>
+            <span class="text-blue-500">g</span>
+            <span class="text-green-500">g</span>
+            <span class="text-red-500">e</span>
+            <span class="text-yellow-400">s</span>
+            <span class="text-blue-500">t</span>
+        </div>
+
+        <p class=" py-2">CopyRights &copy; 2022</p>
+
+    </footer>
+</body>
+<script>
+    function menu_btn() {
+
+        let menubar = document.getElementsByClassName('menu-bar');
+        let meunbtn = document.getElementsByClassName('menu-btn');
+
+        if (menubar[0].classList.length == 7) {
+            menubar[0].classList.add('hidden');
+        }
+        else if (menubar[0].classList.length == 8) {
+            menubar[0].classList.remove('hidden');
+            menubtn[0].classList.add('hidden');
+        }
+    }
+</script>
+
+</html>
