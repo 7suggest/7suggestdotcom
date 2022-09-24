@@ -9,6 +9,7 @@ module.exports = defineConfig({
         privacy: './privacy.html',
         disclamer: './disclamer.html',
         contact: './contact.html',
+        cleaner: './cleaner/index.html',
       }
     }
   }
