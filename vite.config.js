@@ -10,6 +10,7 @@ module.exports = defineConfig({
         disclamer: './disclamer.html',
         contact: './contact.html',
         cleaner: './cleaner/index.html',
+        babywalker: './baby-walker/index.html',
       }
     }
   }
