@@ -7,7 +7,7 @@ module.exports = defineConfig({
         main: './index.html',
         about: './about.html',
         privacy: './privacy.html',
-        disclamer: './disclamer.html',
+        disclamer: './disclaimer.html',
         contact: './contact.html',
         babywalker: './baby-walker/index.html',
         babywalkerbuyingguide: './baby-walker/buying-guide.html',
